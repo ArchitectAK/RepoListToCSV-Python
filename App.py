@@ -7,8 +7,8 @@ access_token = ""
 
 fields = ["name", "url", "author", "num_watch", "num_stars", "num_forks", "num_open_issues", "last_updated"]
 
-with open('../README.md', 'r') as readme:
-    with open('../list.csv', 'wb') as list_csv:
+with open('README.md', 'r') as readme:
+    with open('list.csv', 'wb') as list_csv:
 
         list_csv_writer = csv.writer(list_csv)
         list_csv_writer.writerow(fields)
