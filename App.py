@@ -3,7 +3,7 @@ import csv
 import urllib.request as urllib2
 
 
-access_token = "c70f59aceab42a6163d7b578ba766467ea73d609"
+access_token = ""
 
 fields = ["name", "url", "author", "num_watch", "num_stars", "num_forks", "num_open_issues", "last_updated"]
 
